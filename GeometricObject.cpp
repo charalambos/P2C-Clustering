@@ -20,7 +20,7 @@ GeometricObject::GeometricObject(std::vector<Vector3f> const &_vertices,
 				 vertices(_vertices),normals(_normals),texture_coords(_tex_coords),faces(_faces),edges(_edges)	{
 }
 
-GeometricObject::~GeometricObject()	{
+GeometricObject::~GeometricObjectz()	{
 	vertices.clear();
 	normals.clear();
 	texture_coords.clear();
