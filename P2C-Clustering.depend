@@ -1052,11 +1052,11 @@
 
 1448188021 /usr/include/bits/string3.h
 
-1445770552 /usr/include/fftw3.h
+1434630470 /usr/include/fftw3.h
 	<stdio.h>
 	<stddef.h>
 
-1448405720 /usr/include/boost/array.hpp
+1449694414 /usr/include/boost/array.hpp
 	<boost/detail/workaround.hpp>
 	<cstddef>
 	<stdexcept>
@@ -1068,17 +1068,17 @@
 	<algorithm>
 	<boost/config.hpp>
 
-1448405728 /usr/include/boost/detail/workaround.hpp
+1449694417 /usr/include/boost/detail/workaround.hpp
 	<boost/config.hpp>
 
-1448405720 /usr/include/boost/config.hpp
+1449694414 /usr/include/boost/config.hpp
 	<boost/config/user.hpp>
 	<boost/config/select_compiler_config.hpp>
 	<boost/config/select_stdlib_config.hpp>
 	<boost/config/select_platform_config.hpp>
 	<boost/config/suffix.hpp>
 
-1448405729 /usr/include/boost/config/select_compiler_config.hpp
+1449694425 /usr/include/boost/config/select_compiler_config.hpp
 	"boost/config/compiler/nvcc.hpp"
 	"boost/config/compiler/gcc_xml.hpp"
 	"boost/config/compiler/cray.hpp"
@@ -1102,7 +1102,7 @@
 	"boost/config/compiler/pgi.hpp"
 	"boost/config/compiler/visualc.hpp"
 
-1448405729 /usr/include/boost/config/select_stdlib_config.hpp
+1449694425 /usr/include/boost/config/select_stdlib_config.hpp
 	<cstddef>
 	<stddef.h>
 	<utility>
@@ -1117,10 +1117,10 @@
 	"boost/config/stdlib/modena.hpp"
 	"boost/config/stdlib/dinkumware.hpp"
 
-1448405746 /usr/include/boost/config/no_tr1/utility.hpp
+1449694444 /usr/include/boost/config/no_tr1/utility.hpp
 	<utility>
 
-1448405729 /usr/include/boost/config/select_platform_config.hpp
+1449694425 /usr/include/boost/config/select_platform_config.hpp
 	<boost/config/posix_features.hpp>
 	"boost/config/platform/linux.hpp"
 	"boost/config/platform/bsd.hpp"
@@ -1140,7 +1140,7 @@
 	"boost/config/platform/vms.hpp"
 	<boost/config/posix_features.hpp>
 
-1448405729 /usr/include/boost/config/posix_features.hpp
+1449694425 /usr/include/boost/config/posix_features.hpp
 	<unistd.h>
 
 1448188023 /usr/include/unistd.h
@@ -1162,7 +1162,7 @@
 
 1448188023 /usr/include/bits/unistd.h
 
-1448405729 /usr/include/boost/config/suffix.hpp
+1449694425 /usr/include/boost/config/suffix.hpp
 	<limits.h>
 	<cstddef>
 	<typeinfo>
@@ -1192,24 +1192,24 @@
 
 1411658032 /usr/include/boost/non_type.hpp
 
-1448405720 /usr/include/boost/assert.hpp
+1449694414 /usr/include/boost/assert.hpp
 	<boost/config.hpp>
 	<boost/current_function.hpp>
 	<assert.h>
 
-1448405720 /usr/include/boost/current_function.hpp
+1449694414 /usr/include/boost/current_function.hpp
 
 1448188015 /usr/include/assert.h
 	<features.h>
 
-1448405719 /usr/include/boost/swap.hpp
+1449694414 /usr/include/boost/swap.hpp
 	<boost/core/swap.hpp>
 
 1411658035 /usr/include/boost/utility/swap.hpp
 	<algorithm>
 	<cstddef>
 
-1448405728 /usr/include/boost/detail/iterator.hpp
+1449694417 /usr/include/boost/detail/iterator.hpp
 	<iterator>
 
 1411658034 /usr/include/boost/type_traits/remove_const.hpp
@@ -2227,7 +2227,7 @@
 	<boost/preprocessor/config/config.hpp>
 	<boost/preprocessor/repetition/repeat.hpp>
 
-1448405719 /usr/include/boost/throw_exception.hpp
+1449694414 /usr/include/boost/throw_exception.hpp
 	<boost/detail/workaround.hpp>
 	<boost/config.hpp>
 	<exception>
@@ -2236,13 +2236,13 @@
 
 1411658043 /usr/include/boost/exception/detail/attribute_noreturn.hpp
 
-1448405729 /usr/include/boost/exception/exception.hpp
+1449694421 /usr/include/boost/exception/exception.hpp
 
-1448405727 /usr/include/boost/functional/hash_fwd.hpp
+1449694424 /usr/include/boost/functional/hash_fwd.hpp
 	<boost/config.hpp>
 	<boost/functional/hash/hash_fwd.hpp>
 
-1448405744 /usr/include/boost/functional/hash/hash_fwd.hpp
+1449694442 /usr/include/boost/functional/hash/hash_fwd.hpp
 	<boost/config.hpp>
 	<cstddef>
 	<boost/detail/workaround.hpp>
@@ -2701,54 +2701,54 @@
 	<math.h>
 	<vector>
 
-1448405729 /usr/include/boost/config/user.hpp
+1449694425 /usr/include/boost/config/user.hpp
 
-1448405746 /usr/include/boost/config/compiler/nvcc.hpp
+1449694444 /usr/include/boost/config/compiler/nvcc.hpp
 
-1448405746 /usr/include/boost/config/compiler/gcc_xml.hpp
+1449694444 /usr/include/boost/config/compiler/gcc_xml.hpp
 
-1448405746 /usr/include/boost/config/compiler/cray.hpp
+1449694444 /usr/include/boost/config/compiler/cray.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/common_edg.hpp
+1449694444 /usr/include/boost/config/compiler/common_edg.hpp
 
-1448405746 /usr/include/boost/config/compiler/comeau.hpp
+1449694444 /usr/include/boost/config/compiler/comeau.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/pathscale.hpp
+1449694444 /usr/include/boost/config/compiler/pathscale.hpp
 
-1448405746 /usr/include/boost/config/compiler/intel.hpp
+1449694444 /usr/include/boost/config/compiler/intel.hpp
 	<boost/config/compiler/visualc.hpp>
 	<boost/config/compiler/gcc.hpp>
 	"boost/config/compiler/common_edg.hpp"
 	<cwchar>
 
-1448405746 /usr/include/boost/config/compiler/visualc.hpp
+1449694444 /usr/include/boost/config/compiler/visualc.hpp
 
-1448405746 /usr/include/boost/config/compiler/gcc.hpp
+1449694444 /usr/include/boost/config/compiler/gcc.hpp
 
-1448405746 /usr/include/boost/config/compiler/clang.hpp
+1449694444 /usr/include/boost/config/compiler/clang.hpp
 
-1448405746 /usr/include/boost/config/compiler/digitalmars.hpp
+1449694444 /usr/include/boost/config/compiler/digitalmars.hpp
 	<cstddef>
 
-1448405746 /usr/include/boost/config/compiler/kai.hpp
+1449694444 /usr/include/boost/config/compiler/kai.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/sgi_mipspro.hpp
+1449694444 /usr/include/boost/config/compiler/sgi_mipspro.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/compaq_cxx.hpp
+1449694444 /usr/include/boost/config/compiler/compaq_cxx.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/greenhills.hpp
+1449694444 /usr/include/boost/config/compiler/greenhills.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/codegear.hpp
+1449694444 /usr/include/boost/config/compiler/codegear.hpp
 	<cstring>
 	<errno.h>
 
-1448405746 /usr/include/boost/config/compiler/borland.hpp
+1449694444 /usr/include/boost/config/compiler/borland.hpp
 	<climits>
 	<cwchar>
 	<limits.h>
@@ -2757,99 +2757,99 @@
 	<errno.h>
 	<float.h>
 
-1448405746 /usr/include/boost/config/compiler/metrowerks.hpp
+1449694444 /usr/include/boost/config/compiler/metrowerks.hpp
 
-1448405746 /usr/include/boost/config/compiler/sunpro_cc.hpp
+1449694444 /usr/include/boost/config/compiler/sunpro_cc.hpp
 
-1448405746 /usr/include/boost/config/compiler/hp_acc.hpp
+1449694444 /usr/include/boost/config/compiler/hp_acc.hpp
 	"boost/config/compiler/common_edg.hpp"
 
-1448405746 /usr/include/boost/config/compiler/mpw.hpp
+1449694444 /usr/include/boost/config/compiler/mpw.hpp
 
-1448405746 /usr/include/boost/config/compiler/vacpp.hpp
+1449694444 /usr/include/boost/config/compiler/vacpp.hpp
 
-1448405746 /usr/include/boost/config/compiler/pgi.hpp
+1449694444 /usr/include/boost/config/compiler/pgi.hpp
 
-1448405746 /usr/include/boost/config/stdlib/stlport.hpp
+1449694444 /usr/include/boost/config/stdlib/stlport.hpp
 	<cstddef>
 	<unistd.h>
 	<stdlib.h>
 	<string.h>
 	<algorithm>
 
-1448405746 /usr/include/boost/config/stdlib/libcomo.hpp
+1449694444 /usr/include/boost/config/stdlib/libcomo.hpp
 	<boost/config/no_tr1/utility.hpp>
 
-1448405746 /usr/include/boost/config/stdlib/roguewave.hpp
+1449694444 /usr/include/boost/config/stdlib/roguewave.hpp
 	<boost/config/no_tr1/utility.hpp>
 
-1448405746 /usr/include/boost/config/stdlib/libcpp.hpp
+1449694444 /usr/include/boost/config/stdlib/libcpp.hpp
 	<ciso646>
 
-1448405746 /usr/include/boost/config/stdlib/libstdcpp3.hpp
+1449694444 /usr/include/boost/config/stdlib/libstdcpp3.hpp
 	<unistd.h>
 
-1448405746 /usr/include/boost/config/stdlib/sgi.hpp
+1449694444 /usr/include/boost/config/stdlib/sgi.hpp
 	<boost/config/no_tr1/utility.hpp>
 	<unistd.h>
 	<string>
 
-1448405746 /usr/include/boost/config/stdlib/msl.hpp
+1449694444 /usr/include/boost/config/stdlib/msl.hpp
 	<boost/config/no_tr1/utility.hpp>
 	<cstddef>
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/stdlib/vacpp.hpp
+1449694444 /usr/include/boost/config/stdlib/vacpp.hpp
 	<unistd.h>
 
-1448405746 /usr/include/boost/config/stdlib/modena.hpp
+1449694444 /usr/include/boost/config/stdlib/modena.hpp
 	<boost/config/no_tr1/utility.hpp>
 
-1448405746 /usr/include/boost/config/stdlib/dinkumware.hpp
+1449694444 /usr/include/boost/config/stdlib/dinkumware.hpp
 	<boost/config/no_tr1/utility.hpp>
 	<exception>
 	<typeinfo>
 
-1448405746 /usr/include/boost/config/platform/linux.hpp
+1449694444 /usr/include/boost/config/platform/linux.hpp
 	<cstdlib>
 	<stdlib.h>
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/bsd.hpp
+1449694444 /usr/include/boost/config/platform/bsd.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/solaris.hpp
+1449694444 /usr/include/boost/config/platform/solaris.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/irix.hpp
+1449694444 /usr/include/boost/config/platform/irix.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/hpux.hpp
+1449694444 /usr/include/boost/config/platform/hpux.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/cygwin.hpp
+1449694444 /usr/include/boost/config/platform/cygwin.hpp
 	<unistd.h>
 	<sys/types.h>
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/win32.hpp
+1449694444 /usr/include/boost/config/platform/win32.hpp
 	<_mingw.h>
 
-1448405746 /usr/include/boost/config/platform/beos.hpp
+1449694444 /usr/include/boost/config/platform/beos.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/macos.hpp
+1449694444 /usr/include/boost/config/platform/macos.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/aix.hpp
+1449694444 /usr/include/boost/config/platform/aix.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/amigaos.hpp
+1449694444 /usr/include/boost/config/platform/amigaos.hpp
 
-1448405746 /usr/include/boost/config/platform/qnxnto.hpp
+1449694444 /usr/include/boost/config/platform/qnxnto.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/vxworks.hpp
+1449694444 /usr/include/boost/config/platform/vxworks.hpp
 	<version.h>
 	<time.h>
 	<sysLib.h>
@@ -2893,18 +2893,18 @@
 
 1448188019 /usr/include/bits/sigthread.h
 
-1448405746 /usr/include/boost/config/platform/symbian.hpp
+1449694444 /usr/include/boost/config/platform/symbian.hpp
 	<cstdlib>
 	<stdlib.h>
 	<boost/config/posix_features.hpp>
 	<sys/endian.h>
 
-1448405746 /usr/include/boost/config/platform/cray.hpp
+1449694444 /usr/include/boost/config/platform/cray.hpp
 	<boost/config/posix_features.hpp>
 
-1448405746 /usr/include/boost/config/platform/vms.hpp
+1449694444 /usr/include/boost/config/platform/vms.hpp
 
-1448405726 /usr/include/boost/core/swap.hpp
+1449694423 /usr/include/boost/core/swap.hpp
 	<utility>
 	<algorithm>
 	<cstddef>
@@ -3300,7 +3300,7 @@
 	<float.h>
 	"Vector.h"
 
-1450233485 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Vector.h
+1450418553 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Vector.h
 	<stdarg.h>
 	<boost/array.hpp>
 	<math.h>
@@ -3336,7 +3336,7 @@
 
 1299865536 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Edge.h
 
-1414261360 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Face.h
+1450418759 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Face.h
 	<vector>
 	"Edge.h"
 
@@ -3365,7 +3365,7 @@
 	<string>
 	<iostream>
 
-1417525106 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Utilities.h
+1450418708 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Utilities.h
 	<stdarg.h>
 	<malloc.h>
 	<string.h>
@@ -3455,7 +3455,7 @@
 	<vector>
 	"geom.h"
 
-1162890362 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/bilateral_filtering/include/math_tools.h
+1450418293 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/bilateral_filtering/include/math_tools.h
 	<cmath>
 	<cstdlib>
 	<ctime>
@@ -3528,7 +3528,7 @@
 	"../Vector.h"
 	"../Matrix.h"
 
-1417526546 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Matrix.h
+1450418741 /home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/Matrix.h
 	<stdarg.h>
 	<math.h>
 	<memory.h>
@@ -3542,7 +3542,7 @@
 	"SurfacePoint.h"
 	"GeometricObject.h"
 
-1450235644 source:/home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/main.cpp
+1450245675 source:/home/charalambos/Documents/CODE/GITHUB_PROJECTS/P2C-Clustering/main.cpp
 	<sys/stat.h>
 	"Vector.h"
 	"BoundingBox.h"

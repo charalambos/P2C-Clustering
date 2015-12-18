@@ -12,9 +12,11 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-pg" />
 					<Add option="-g" />
 				</Compiler>
 				<Linker>
+					<Add option="-pg" />
 					<Add library="/usr/lib64/libMagick++-6.Q16.so" />
 					<Add library="/usr/lib64/libMagickCore-6.Q16.so" />
 					<Add library="/usr/lib64/libMagickWand-6.Q16.so" />
