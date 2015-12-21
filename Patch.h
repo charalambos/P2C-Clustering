@@ -7,11 +7,8 @@
 
 #include "Utilities.h"
 #include "BoundingBox.h"
-//#include "GeometricObject.h"
-//#include "GeometryExporter.h"
 #include "GeometryProcessing.h"
 #include "GaussianDistribution.h"
-//#include "DelaunayTriangulation.h"
 #include "GeospatialBoundingBox.h"
 
 #define MIN_STABLE	3
