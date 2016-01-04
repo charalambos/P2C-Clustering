@@ -203,6 +203,7 @@ void GeospatialBoundingBox::initialize(Image *resampled)	{
 	if (normal_map)	delete normal_map;
 	normal_map = GeometryProcessing::computeNormalMap(xyz_map, true);
 	normal_map->blur(1);
+	normal_map->perPixelNormalization();
 	normal_map->saveImage(_format("%s_normal_map.pfm", file_name.c_str()));
 
 	///Compute the height variation between the points
@@ -456,7 +457,7 @@ void GeospatialBoundingBox::computeHeightAndNormalVariation()	{
 					if (max_height < xyz_map->getPixel(j,i)(2))	max_height = xyz_map->getPixel(j,i)(2);
 
 					///Check if max or min for the dot product
-					float dot_product = 1.0f - fabs(dot(normal, color2vector3<float>(normal_map->getPixel(j,i))));
+					float dot_product = std::max(0.0f,1.0f - fabs(dot(normal, color2vector3<float>(normal_map->getPixel(j,i)))));
 
 					if (min_dot > dot_product)	min_dot = dot_product;
 					if (max_dot < dot_product)	max_dot = dot_product;
@@ -464,7 +465,7 @@ void GeospatialBoundingBox::computeHeightAndNormalVariation()	{
 			}
 
 			///Compute the height variation
-			float height_var = max_height - min_height;
+			float height_var = (xyz_map->getPixel(x,y)(2) - min_height)/max_height;
 			///Compute the normal variation
 			float normal_var = max_dot - min_dot;
 			///Store it in the variation map
@@ -472,53 +473,8 @@ void GeospatialBoundingBox::computeHeightAndNormalVariation()	{
 		}
 	}
 
-
-	///Go through the map again and compute the second derivative of differences
-	for (int y=0;y<height_and_normal_variation_map->getHeight();y++)	{
-		for (int x=0;x<height_and_normal_variation_map->getWidth();x++)	{
-			///Check only the valid points
-			if (fabs(height_and_normal_variation_map->getPixel(x,y).r()) < EPSILON &&
-				fabs(height_and_normal_variation_map->getPixel(x,y).g()) < EPSILON)	continue;
-
-			///Search in a neighbourhood
-			float sum_of_differences_height = 0.0f;
-			float sum_of_differences_normal= 0.0f;
-			float neighbours = 0.0f;
-			for (int i=y-neighbourhood_search_size;i<=y+neighbourhood_search_size;i++){
-				for (int j=x-neighbourhood_search_size;j<=x+neighbourhood_search_size;j++)	{
-					///If it's the same continue
-					if (i==y && j==x)	continue;
-					///Check for out of bounds
-					if (outOfBounds(height_and_normal_variation_map, j, i))	continue;
-					///if its a valid point
-					///Check only the valid points
-					if (fabs(height_and_normal_variation_map->getPixel(j,i).r()) < EPSILON &&
-						fabs(height_and_normal_variation_map->getPixel(j,i).g()) < EPSILON)	continue;
-					sum_of_differences_height += fabs(height_and_normal_variation_map->getPixel(x,y).r()-height_and_normal_variation_map->getPixel(j,i).r());
-					sum_of_differences_normal+= fabs(height_and_normal_variation_map->getPixel(x,y).g()-height_and_normal_variation_map->getPixel(j,i).g());
-					neighbours++;
-				}
-			}
-			sum_of_differences_height /= max(1.0f,neighbours);
-			sum_of_differences_normal /= max(1.0f,neighbours);
-
-			Color val = height_and_normal_variation_map->getPixel(x,y);
-			height_and_normal_variation_map->setPixel(x,y,Color(val.r(), val.g(), sum_of_differences_height, sum_of_differences_normal));
-		}
-	}
-
 	if (DEBUG)	{
-		Image *secondary_image = new Image(height_and_normal_variation_map->getWidth(), height_and_normal_variation_map->getHeight(), 0.0f,0.0f,0.0f,1.0f);
-		for (int y=0;y<height_and_normal_variation_map->getHeight();y++)	{
-			for (int x=0;x<height_and_normal_variation_map->getWidth();x++)	{
-				if (fabs(height_and_normal_variation_map->getPixel(x,y).r()) < EPSILON &&
-					fabs(height_and_normal_variation_map->getPixel(x,y).g()) < EPSILON)	continue;
-				secondary_image->setPixel(x,y, Color(height_and_normal_variation_map->getPixel(x,y).b(), height_and_normal_variation_map->getPixel(x,y).a(),1.0f));
-			}
-		}
 		height_and_normal_variation_map->saveImage(_format("%s_height_and_dot_variation_map_A.pfm", file_name.c_str()));
-		secondary_image->saveImage(_format("%s_height_and_dot_variation_map_B.pfm", file_name.c_str()));
-		delete secondary_image;
 	}
 	return;
 }

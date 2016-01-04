@@ -621,6 +621,19 @@ void Image::normalize(Color *_range)	{
 	return;
 }
 
+void Image::perPixelNormalization(float _range)	{
+    for (int y=0;y<height;y++)	{
+		for (int x=0;x<width;x++)	{
+			Vector3f val = color2vector3<float>(getPixel(x,y));
+			val.Normalize();
+
+			setPixel(x,y,Color(val(0),val(1),val(2),1.0f));
+		}
+	}
+
+	return;
+}
+
 void Image::clear(Color const &val)	{
 	for (int y=0;y<height;y++)	{
 		for (int x=0;x<width;x++)	{

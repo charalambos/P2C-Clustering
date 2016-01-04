@@ -8,7 +8,7 @@
 #include "Patch.h"
 #include "Surface.h"
 
-#define	KAPPA	1.0f
+#define	KAPPA	1.5f
 
 Patch::Patch(int _cluster_id)	{
 	patch_descriptors_distr = new GaussianDistribution6f();
