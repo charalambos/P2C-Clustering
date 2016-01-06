@@ -21,6 +21,8 @@ Technical details:
 - Usage: P2C-Clustering structured_pointcloud.pfm
 - Input files can be generated from LiDAR data using the StructurePointcloud code also provide in a separate repository.
 
+A sample input file can be found in the data folder.
+
 *IMPORTANT: To use this software, YOU MUST CITE the following in any resulting publication:*
 
 @article{poullis2013framework,
