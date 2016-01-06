@@ -107,7 +107,6 @@
 		<Unit filename="bilateral_filtering/include/math_tools.h" />
 		<Unit filename="bilateral_filtering/include/mixed_vector.h" />
 		<Unit filename="bilateral_filtering/include/msg_stream.h" />
-		<Unit filename="lena.jpg" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<envvars />

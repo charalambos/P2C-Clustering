@@ -422,7 +422,7 @@ bool GeospatialBoundingBox::resample(double sampling_tolerance, double step)	{
 
 void GeospatialBoundingBox::computeHeightAndNormalVariation()	{
 
-	int neighbourhood_size = 11;
+	int neighbourhood_size = 3;
 	int neighbourhood_search_size = neighbourhood_size/2;
 	///Create a map the same size as the xyz map
 	if (height_and_normal_variation_map)	delete height_and_normal_variation_map;
@@ -433,8 +433,11 @@ void GeospatialBoundingBox::computeHeightAndNormalVariation()	{
 		for (int x=0;x<xyz_map->getWidth();x++)	{
 			///Check only the valid points
 			if ((xyz_map->getPixel(x,y) == Color(0.0f,0.0f,0.0f)) || (normal_map->getPixel(x,y) == Color(0.0f,0.0f,0.0f))) continue;
-			float min_height = xyz_map->getPixel(x,y)(2);
-			float max_height = xyz_map->getPixel(x,y)(2);
+            ///Get the height of the point in question
+			float current_height = xyz_map->getPixel(x,y).b();
+
+			float min_height = xyz_map->getPixel(x,y).b();
+			float max_height = xyz_map->getPixel(x,y).b();
 
 			float min_dot = 1.0f;
 			float max_dot = 0.0f;
@@ -465,7 +468,9 @@ void GeospatialBoundingBox::computeHeightAndNormalVariation()	{
 			}
 
 			///Compute the height variation
-			float height_var = (xyz_map->getPixel(x,y)(2) - min_height)/max_height;
+			float max_minus_min = max_height - min_height;
+			if (max_minus_min < EPSILON)    max_minus_min = 1.0f;
+			float height_var = (current_height-min_height)/max_minus_min;
 			///Compute the normal variation
 			float normal_var = max_dot - min_dot;
 			///Store it in the variation map
