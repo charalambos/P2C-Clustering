@@ -495,25 +495,13 @@ int exportPatches(int id, InformationManager *information_manager, GeospatialBou
  	///Export each patch separately
 	std::cout << "Exporting patch map..." << std::endl;
 
+
 	int total_patch_objects = 0;
-	float r=0.25f,g=0.25f,b=0.25f;
-	float step_r=0.1f,step_g=0.1f,step_b=0.1f;
 	for (int i=0;i<information_manager->getPatches().size();i++)	{
 		///Set the right color
-		r += step_r;
-		if (r > 1.0f)	{
-			r = 1.0f;
-			g += step_g;
-			if (g > 1.0f)	{
-				g = 1.0f;
-				b += step_b;
-				if (b > 1.0f)	{
-					r = 0.25f;
-					g = 0.25f;
-					b = 0.25f;
-				}
-			}
-		}
+	float r= ((double) rand() / (RAND_MAX));
+	float g= ((double) rand() / (RAND_MAX));
+	float b= ((double) rand() / (RAND_MAX));
 
 		///Get the point indices for each patch
 		if (!information_manager->getPatch(i)) {
@@ -549,24 +537,12 @@ int exportSurfaces(int id, InformationManager *information_manager, GeospatialBo
 	std::cout << "Exporting surface map..." << std::endl;
 
 	int total_surface_objects = 0;
-	float r=0.2f,g=0.2f,b=0.2f;
-	float step_r=0.1f,step_g=0.1f,step_b=0.1f;
 	for (int i=0;i<information_manager->getSurfaces().size();i++)	{
 		///Set the right color
-		r += step_r;
-		if (r > 1.0f)	{
-			r = 1.0f;
-			g += step_g;
-			if (g > 1.0f)	{
-				g = 1.0f;
-				b += step_b;
-				if (b > 1.0f)	{
-					r = 0.25f;
-					g = 0.25f;
-					b = 0.25f;
-				}
-			}
-		}
+        float r= ((double) rand() / (RAND_MAX));
+        float g= ((double) rand() / (RAND_MAX));
+        float b= ((double) rand() / (RAND_MAX));
+
 
 		///Get the point indices for each patch
 		std::vector<Vector2i> point_indices = information_manager->getSurface(i)->getPointIndices();
@@ -622,6 +598,9 @@ int main(int argc, char *argv[])    {
         std::cerr << "There are 0 points in the geometry file." << std::endl;
         return 0;
     }
+
+    ///initialize random seed:
+    srand (time(NULL));
 
     ///Create a folder for the results of this geo box
     mkdir(_format("%d",i).c_str(),0777);
