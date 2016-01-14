@@ -16,7 +16,7 @@ Technical details:
 
 - The project file is provided for Code::Blocks IDE. 
 - It requires the libraries Image Magick, fftw3, and opencv2.
-- A small sample file is provided in the data folder [input_structured_pointcloud.pfm]. If you want to generate your own input files you have to user StructurePointcloud. The generated file [geo_bbox_*.xyz_D.pfm"] is the input to this software.
+- A small sample file is provided in the data folder [sample_input.pfm]. If you want to generate your own input files you have to user StructurePointcloud. The generated file [geo_bbox_*.xyz_D.pfm"] is the input to this software. The output corresponding to the sample input file is also included for patches and surfaces. Usually you should expect about 50% reduction in the number of patches by the second-tier clustering.
 - Usage: P2C-Clustering input_structured_pointcloud.pfm
 - Input files can be generated from LiDAR data using the StructurePointcloud code also provide in a separate repository.
 
