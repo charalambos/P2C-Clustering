@@ -92,7 +92,7 @@ bool similar(Surface *s1, Surface *s2)	{
 	///Compare them to each other by computing the bhattacharya distance
 	float similarity = fabs(bhattacharya_distance(s1->getSurfaceDescriptorsDistribution(), s2->getSurfaceDescriptorsDistribution()));
 
-	if (similarity < 1.5f)	{
+	if (similarity <0.125f)	{
 		return true;
 	}
 

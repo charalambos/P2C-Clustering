@@ -6,7 +6,6 @@ A variant of the first stage of the algorithm was first introduced in IEEE CVPR 
 
 The copyright for the included bilateral filtering code belongs to Sylvain Paris and Frédo Durand.
 
-
 References:
 1. IEEE PAMI 2013: A Framework for Automatic Modeling from Point Cloud Data
 2. IEEE CVPR 2009: Automatic reconstruction of cities from remote sensor data
@@ -17,11 +16,10 @@ Technical details:
 
 - The project file is provided for Code::Blocks IDE. 
 - It requires the libraries Image Magick, fftw3, and opencv2.
-- A small sample file is provided in the bin folders [structured_pointcloud.pfm]
-- Usage: P2C-Clustering structured_pointcloud.pfm
+- A small sample file is provided in the data folder [input_structured_pointcloud.pfm]. If you want to generate your own input files you have to user StructurePointcloud. The generated file [geo_bbox_*.xyz_D.pfm"] is the input to this software.
+- Usage: P2C-Clustering input_structured_pointcloud.pfm
 - Input files can be generated from LiDAR data using the StructurePointcloud code also provide in a separate repository.
 
-A sample input file can be found in the data folder.
 
 *IMPORTANT: To use this software, YOU MUST CITE the following in any resulting publication:*
 
