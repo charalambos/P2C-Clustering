@@ -1,59 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
-	<File name="bilateral_filtering/include/math_tools.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="27005" topLine="1047" />
-		</Cursor>
-	</File>
-	<File name="ImageProcessing.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4789" topLine="138" />
-		</Cursor>
-	</File>
-	<File name="Face.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3659" topLine="116" />
-		</Cursor>
-	</File>
-	<File name="BoundingBox.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="667" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="Image.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="15226" topLine="610" />
-		</Cursor>
-	</File>
-	<File name="GeometryProcessing.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="575" topLine="4" />
-		</Cursor>
-	</File>
-	<File name="Image.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3307" topLine="93" />
-		</Cursor>
-	</File>
-	<File name="InformationManager.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4381" topLine="132" />
-		</Cursor>
-	</File>
 	<File name="Surface.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2873" topLine="76" />
-		</Cursor>
-	</File>
-	<File name="Edge.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="484" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="Sorter.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="100" />
 		</Cursor>
 	</File>
 	<File name="GeometricObject.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -61,29 +11,19 @@
 			<Cursor1 position="849" topLine="9" />
 		</Cursor>
 	</File>
+	<File name="GeometryProcessing.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="575" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24668" topLine="564" />
+		</Cursor>
+	</File>
 	<File name="Patch.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="404" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="GaussianDistribution.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1786" topLine="48" />
-		</Cursor>
-	</File>
-	<File name="Algebra.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5639" topLine="153" />
-		</Cursor>
-	</File>
-	<File name="Utilities.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2530" topLine="89" />
-		</Cursor>
-	</File>
-	<File name="GeospatialBoundingBox.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="14790" topLine="417" />
 		</Cursor>
 	</File>
 	<File name="Matrix.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -91,19 +31,9 @@
 			<Cursor1 position="4079" topLine="141" />
 		</Cursor>
 	</File>
-	<File name="FileUtilities.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Image.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2352" topLine="85" />
-		</Cursor>
-	</File>
-	<File name="ImageProcessing.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="402" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="GeometryExporter.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1209" topLine="18" />
+			<Cursor1 position="3307" topLine="93" />
 		</Cursor>
 	</File>
 	<File name="bilateral_filtering/fft_3D/support_3D.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -111,24 +41,14 @@
 			<Cursor1 position="1404" topLine="34" />
 		</Cursor>
 	</File>
-	<File name="bilateral_filtering/include/array.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2518" topLine="57" />
-		</Cursor>
-	</File>
 	<File name="BoundingBox.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="168" topLine="1" />
 		</Cursor>
 	</File>
-	<File name="Color.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ImageProcessing.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2502" topLine="114" />
-		</Cursor>
-	</File>
-	<File name="GeometricObject.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="863" topLine="18" />
+			<Cursor1 position="402" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Patch.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -136,9 +56,64 @@
 			<Cursor1 position="489" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="Image.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15226" topLine="610" />
+		</Cursor>
+	</File>
+	<File name="Algebra.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5639" topLine="153" />
+		</Cursor>
+	</File>
+	<File name="GeospatialBoundingBox.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="568" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="GeometryExporter.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1209" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="Utilities.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2530" topLine="89" />
+		</Cursor>
+	</File>
+	<File name="Edge.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="484" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="ImageProcessing.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4789" topLine="138" />
+		</Cursor>
+	</File>
+	<File name="GeometricObject.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="863" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="Sorter.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="100" />
+		</Cursor>
+	</File>
 	<File name="GeometryProcessing.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="5706" topLine="149" />
+		</Cursor>
+	</File>
+	<File name="bilateral_filtering/include/math_tools.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27005" topLine="1047" />
+		</Cursor>
+	</File>
+	<File name="BoundingBox.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="667" topLine="12" />
 		</Cursor>
 	</File>
 	<File name="GeometryExporter.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -146,24 +121,49 @@
 			<Cursor1 position="482" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Color.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1733" topLine="51" />
-		</Cursor>
-	</File>
 	<File name="Vector.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="4717" topLine="127" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+	<File name="GeospatialBoundingBox.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="23361" topLine="527" />
+			<Cursor1 position="14790" topLine="417" />
 		</Cursor>
 	</File>
-	<File name="GeospatialBoundingBox.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Face.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="568" topLine="6" />
+			<Cursor1 position="3659" topLine="116" />
+		</Cursor>
+	</File>
+	<File name="bilateral_filtering/include/array.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2518" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="GaussianDistribution.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1786" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="Color.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1733" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="InformationManager.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4381" topLine="132" />
+		</Cursor>
+	</File>
+	<File name="Color.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2502" topLine="114" />
+		</Cursor>
+	</File>
+	<File name="FileUtilities.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2352" topLine="85" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
