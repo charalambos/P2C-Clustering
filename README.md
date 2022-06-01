@@ -21,7 +21,7 @@ Technical details:
 - Input files can be generated from LiDAR data using the StructurePointcloud code also provide in a separate repository.
 
 
-*IMPORTANT: To use this software, YOU MUST CITE the following in any resulting publication:*
+*IMPORTANT: To use this software, please consider citing the following in any resulting publication:*
 
 @article{poullis2013framework,
   title={A Framework for Automatic Modeling from Point Cloud Data},
